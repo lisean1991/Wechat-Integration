@@ -1,2 +1,2 @@
 # Wechat-Integration
-Please reply string <string> with your own info.
+Please replace string <string> with your own info.
