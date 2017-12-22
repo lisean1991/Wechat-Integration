@@ -1,0 +1,23 @@
+<mvc:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:form="sap.ui.layout.form" controllerName="ygsd.controller.createAccount"
+	xmlns:html="http://www.w3.org/1999/xhtml">
+	<Page title="创建账户" enableScrolling="false">
+		<form:SimpleForm id="createForm">
+			<Label text="姓"></Label>
+			<Input value="{createAccpunt>lastName}" width="50%"></Input>
+			<Label text="名"></Label>
+			<Input value="{createAccpunt>firstName}" width="50%"></Input>
+			<Label text="地址"></Label>
+			<Input value="{createAccpunt>address}" width="50%"></Input>
+			<Label text="电话"></Label>
+			<Input value="{createAccpunt>phone}" width="50%"></Input>
+		</form:SimpleForm>
+	<footer>
+		<Toolbar>
+			<ToolbarSpacer/>
+			<Button text="Submit" press="onSubmit"/>
+			<Button text="Cancel" press="onCancel"/>
+			<ToolbarSpacer/>
+		</Toolbar>
+	</footer>
+	</Page>
+</mvc:View>

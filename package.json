@@ -1,0 +1,26 @@
+{
+    "name": "bae-nodejs",
+    "version": "1.0.0",
+    "author": "bae",
+    "description": "The first bae nodejs app!",
+    "scripts": {
+        "start": "node server.js"
+    },
+    "dependencies": {
+        "babel-core": "^6.26.0",
+        "body-parser": "^1.17.2",
+        "body-parser-xml": "^1.1.0",
+        "concat-stream": "^1.6.0",
+        "connect-redis": "^3.3.0",
+        "cookie-parser": "^1.4.3",
+        "crypto": "^1.0.1",
+        "express": "^4.12.4",
+        "express-session": "^1.15.5",
+        "jssha": "^2.3.1",
+        "node-inspect": "^1.11.2",
+        "redis": "^2.6.11",
+        "request": "^2.81.0",
+        "wechat": "^2.1.0",
+        "xml2js": "^0.4.19"
+    }
+}

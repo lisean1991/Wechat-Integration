@@ -1,0 +1,16 @@
+<mvc:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="ygsd.controller.home"
+	xmlns:html="http://www.w3.org/1999/xhtml">
+	<Page title="C4C测试号" enableScrolling="false">
+		<TileContainer id="container" tileDelete="handleTileDelete" tiles="{/TileCollection}">
+			<StandardTile press="onTilePress" icon="{icon}" type="{type}" number="{number}" numberUnit="{numberUnit}" title="{title}" info="{info}" infoState="{infoState}"/>
+		</TileContainer>
+		<footer>
+			<Toolbar>
+				<ToolbarSpacer/>
+				<Button text="Edit" press="handleEditPress"/>
+				<Button text="Busy state" press="handleBusyPress"/>
+				<ToolbarSpacer/>
+			</Toolbar>
+		</footer>
+	</Page>
+</mvc:View>

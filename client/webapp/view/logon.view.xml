@@ -1,0 +1,13 @@
+<mvc:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="ygsd.controller.logon"
+	xmlns:html="http://www.w3.org/1999/xhtml" xmlns:form="sap.ui.layout.form" class="homepage">
+	<Title id="welcome" text="欢迎来到异果士多!" ></Title>
+	<Panel id="logonPanel" width="200PX"  backgroundDesign="Transparent" >
+		<VBox>
+			<Label text="用户名" class="label"></Label>
+			<Input placeholder="请输入用户名" maxLength="10" change="onNameChange"></Input>
+			<Label text="密码" class="label"></Label>
+			<Input type="Password" placeholder="请输入密码" maxLength="10" change="onPassWordChange"></Input>
+			<Button text="确认" width="100%" type="Transparent" class="confirmButton" press="onConfirm"></Button>
+		</VBox>
+	</Panel>
+</mvc:View>

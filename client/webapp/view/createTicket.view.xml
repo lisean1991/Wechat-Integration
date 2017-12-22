@@ -1,0 +1,17 @@
+<mvc:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:form="sap.ui.layout.form" controllerName="ygsd.controller.createTicket"
+	xmlns:html="http://www.w3.org/1999/xhtml">
+	<Page title="创建票据" enableScrolling="false">
+		<form:SimpleForm id="createForm">
+			<Label text="内容描述"></Label>
+			<TextArea value="{ticket>text}" rows="4"></TextArea>
+		</form:SimpleForm>
+	<footer>
+		<Toolbar>
+			<ToolbarSpacer/>
+			<Button text="Submit" press="onSubmit"/>
+			<Button text="Cancel" press="onCancel"/>
+			<ToolbarSpacer/>
+		</Toolbar>
+	</footer>
+	</Page>
+</mvc:View>

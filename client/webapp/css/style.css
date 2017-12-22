@@ -1,0 +1,170 @@
+/* Enter your custom styles here */
+.highlightRed {
+  background-color:rgba(226,166,166,1) !important;
+}
+
+.highlightYellow {
+  background-color: rgb(199,237,204 ) !important; 
+}
+
+.textInForm{
+	/*display: block;*/
+    min-height: 1.6rem !important;
+    line-height: 1rem !important;
+    padding-top: 0rem !important;
+    padding-bottom: 0rem !important;
+}
+
+/*.LableInForm{
+	width: 20rem !important;
+	text-align: right !important;
+}*/
+
+.sapUiFormM>.sapUiFormResGrid>.sapUiFormResGridMain>div{
+	    overflow: visible;
+  /*  padding-left: 4.75rem !important;*/
+}
+
+.sapUiFormResGridCont>div {
+    padding: 0 0.25rem 0.5rem 0.25rem;
+    box-sizing: border-box;
+    /*width: 10rem !important;*/
+}
+
+.lableInForm{
+/*	width: 10rem !important;*/
+    vertical-align: middle !important;
+    font-size: medium !important;
+    text-align: right !important;
+    height:1.5rem;
+}
+
+.sapMInputBaseInner {
+    color: #000000;
+    background: #ffffff;
+    border: 1px solid #bfbfbf;
+    font-size: 0.875rem;
+    font-family: Arial,Helvetica,sans-serif;
+    line-height: initial;
+    height: 1.5rem;
+    padding: 0 0.3rem;
+}
+
+.sapMInputBase {
+    height: 2rem;
+}
+
+.sapMInputBaseWidthPadding {
+    padding: 0.0rem 0;
+}
+
+.sapMInputValHelpInner {
+    height: 1rem;
+    width: 1rem;
+    line-height: 1rem;
+}
+
+.sapUiFormTitle {
+    height: 3rem;
+    line-height: 3rem;
+    font-weight: bold;
+}
+
+.textAreaInFO {
+	width: 20rem !important;
+}
+
+.homepage {
+    background-image: url(../images/image1.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.loginStyle{
+    /*background-image: url(../images/image1.jpg);*/
+    /*background-color:	#ADFF2F;*/
+    background-size: 100% 100%;
+    background-repeat: no-repeat;	
+    position:absolute;
+    left:40%;
+    top:40%;
+}
+
+.loginStylePC{
+    /*background-image: url(../images/image1.jpg);*/
+    /*background-color:	#ADFF2F;*/
+    background-size: 100% 100%;
+    background-repeat: no-repeat;	
+    width:350px;
+    position:absolute;
+    left:40%;
+    top:40%;
+}
+
+.loginStylePhone{
+    /*background-image: url(../images/image1.jpg);*/
+    /*background-color:	#ADFF2F;*/
+    background-size: 100% 100%;
+    background-repeat: no-repeat;	
+    position:absolute;
+    left:87px;
+    top:40%;
+}
+
+.confirmButton{
+	border-color:#87CEFA;
+	border-style:solid;
+	font-weight: bold;
+}
+
+.label{
+	font-weight: bold;
+	color:#ffffff;
+	text-shadow:0 0 2 #000000;
+	
+}
+
+.welcome {
+    position: absolute;
+    left: 35%;
+    top: 10%;
+    width:auto;
+    color: rgb(0, 0, 255);
+    font-size: 300%;
+    font-style: oblique;
+    font-family: Serif;
+    font-weight: bold;
+}
+
+.welcomePC {
+    position: absolute;
+    left: 35%;
+    top: 10%;
+    width:auto;
+    color: rgb(0, 0, 255);
+    font-size: 500%;
+    font-style: oblique;
+    font-family: Serif;
+    font-weight: bold;
+}
+
+.welcomePhone {
+    position: absolute;
+    left: 35%;
+    top: 10%;
+    width:auto;
+    color: rgb(0, 0, 255);
+    font-size: 100%;
+    font-style: oblique;
+    font-family: Serif;
+    font-weight: bold;
+}
+
+
+.starButton {
+    position: absolute;
+    left: 65%;
+    top: 25%;
+    width:10%;
+
+}
